@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">codingchallengeshoppinglist</string>
+    <string name="txtview1">-</string>
+    <string name="txtview2">-</string>
+    <string name="txtview3">-</string>
+    <string name="txtview4">-</string>
+    <string name="txtview5">-</string>
+    <string name="txtview6">-</string>
+    <string name="txtview7">-</string>
+    <string name="txtview8">-</string>
+    <string name="txtview9">-</string>
+    <string name="txtview10">-</string>
+    <string name="addbutton">Add Item</string>
+    <string name="itembutton1">Bananas</string>
+    <string name="itembutton2">Carrots</string>
+    <string name="itembutton3">Steaks</string>
+    <string name="itembutton4">Cheese</string>
+    <string name="itembutton5">Apples</string>
+    <string name="itembutton6">Potatoes</string>
+    <string name="itembutton7">Eggs</string>
+    <string name="itembutton8">Bacon</string>
+    <string name="itembutton9">Milk</string>
+    <string name="itembutton10">Oranges</string>
+</resources>
