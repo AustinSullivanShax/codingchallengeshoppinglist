@@ -42,7 +42,36 @@ public class MainActivity extends AppCompatActivity {
             if (resultCode == RESULT_OK) {
                 String reply = data.getStringExtra(SecondActivity.EXTRA_REPLY);
                 TextView textView1 = findViewById(R.id.textView);
-                textView1.setText(reply); // Change the text
+                TextView textView2 = findViewById(R.id.textView2);
+                TextView textView3 = findViewById(R.id.textView3);
+                TextView textView4 = findViewById(R.id.textView4);
+                TextView textView5 = findViewById(R.id.textView5);
+                TextView textView6 = findViewById(R.id.textView6);
+                TextView textView7 = findViewById(R.id.textView7);
+                TextView textView8 = findViewById(R.id.textView8);
+                TextView textView9 = findViewById(R.id.textView9);
+                TextView textView10 = findViewById(R.id.textView10);
+
+                if (textView1.getText().toString().equals(""))
+                    textView1.setText(reply); // Change the text
+                else if (textView2.getText().toString().equals("") && !textView2.getText().toString().equals(textView1.getText().toString()))
+                    textView2.setText(reply);
+                else if (textView3.getText().toString().equals("") && !textView3.getText().toString().equals(textView2.getText().toString()))
+                    textView3.setText(reply);
+                else if (textView4.getText().toString().equals("") && !textView4.getText().toString().equals(textView3.getText().toString()))
+                    textView4.setText(reply);
+                else if (textView5.getText().toString().equals("") && !textView5.getText().toString().equals(textView4.getText().toString()))
+                    textView5.setText(reply);
+                else if (textView6.getText().toString().equals("") && !textView6.getText().toString().equals(textView5.getText().toString()))
+                    textView6.setText(reply);
+                else if (textView7.getText().toString().equals("") && !textView7.getText().toString().equals(textView6.getText().toString()))
+                    textView7.setText(reply);
+                else if (textView8.getText().toString().equals("") && !textView8.getText().toString().equals(textView7.getText().toString()))
+                    textView8.setText(reply);
+                else if (textView9.getText().toString().equals("") && !textView9.getText().toString().equals(textView8.getText().toString()))
+                    textView9.setText(reply);
+                else if (textView10.getText().toString().equals("") && !textView10.getText().toString().equals(textView9.getText().toString()))
+                    textView10.setText(reply);
             }
         }
     }

@@ -69,5 +69,109 @@ public class SecondActivity extends AppCompatActivity {
             }
         });
 
+        button3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v)
+            {
+
+                String reply = button3.getText().toString(); //Get button text
+                Intent replyIntent = new Intent();
+                replyIntent.putExtra(EXTRA_REPLY, reply);
+                setResult(RESULT_OK,replyIntent);
+                finish();
+            }
+        });
+
+        button4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v)
+            {
+
+                String reply = button4.getText().toString(); //Get button text
+                Intent replyIntent = new Intent();
+                replyIntent.putExtra(EXTRA_REPLY, reply);
+                setResult(RESULT_OK,replyIntent);
+                finish();
+            }
+        });
+
+        button5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v)
+            {
+
+                String reply = button5.getText().toString(); //Get button text
+                Intent replyIntent = new Intent();
+                replyIntent.putExtra(EXTRA_REPLY, reply);
+                setResult(RESULT_OK,replyIntent);
+                finish();
+            }
+        });
+
+        button6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v)
+            {
+
+                String reply = button6.getText().toString(); //Get button text
+                Intent replyIntent = new Intent();
+                replyIntent.putExtra(EXTRA_REPLY, reply);
+                setResult(RESULT_OK,replyIntent);
+                finish();
+            }
+        });
+
+        button7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v)
+            {
+
+                String reply = button7.getText().toString(); //Get button text
+                Intent replyIntent = new Intent();
+                replyIntent.putExtra(EXTRA_REPLY, reply);
+                setResult(RESULT_OK,replyIntent);
+                finish();
+            }
+        });
+
+        button8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v)
+            {
+
+                String reply = button8.getText().toString(); //Get button text
+                Intent replyIntent = new Intent();
+                replyIntent.putExtra(EXTRA_REPLY, reply);
+                setResult(RESULT_OK,replyIntent);
+                finish();
+            }
+        });
+
+        button9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v)
+            {
+
+                String reply = button9.getText().toString(); //Get button text
+                Intent replyIntent = new Intent();
+                replyIntent.putExtra(EXTRA_REPLY, reply);
+                setResult(RESULT_OK,replyIntent);
+                finish();
+            }
+        });
+
+        button10.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v)
+            {
+
+                String reply = button10.getText().toString(); //Get button text
+                Intent replyIntent = new Intent();
+                replyIntent.putExtra(EXTRA_REPLY, reply);
+                setResult(RESULT_OK,replyIntent);
+                finish();
+            }
+        });
+
     }
 }
